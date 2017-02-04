@@ -104,11 +104,11 @@
         left: 0;
     }
     .search-item-text {
-        position: absolute;
         font-size: 0.7em;
-        left: 100px;
         line-height: 100px;
         height: 100px;
+        padding-left: 75px;
+        padding-right: 40px;
     }
     .search-item-text {
         width: 100%;

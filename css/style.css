@@ -1,4 +1,8 @@
 /* Global */
+a, a.active, a:active, a:focus, a:hover {
+    color: black;
+    text-decoration: none;
+}
 .navbar {
     background: #ffffff;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
@@ -123,7 +127,11 @@ header {
 }
 .search-item-text {
     width: 269px;
-    text-align: left
+    text-align: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-right: 10px;
 }
 .search-item-lanked {
     width: 75px;
@@ -220,6 +228,7 @@ header {
     border: none;
     border-radius: 25px;
     font-size: 2em;
+    outline: none;
 }
 
 
