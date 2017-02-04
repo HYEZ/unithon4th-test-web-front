@@ -170,7 +170,7 @@ header {
 /* Search Box */
 #search-box {
     background: linear-gradient(to bottom right, #356a84, #30455f);
-/*    display: none;*/
+    display: none;
     padding: 41px 0 250px 0;
 }
 .search-box-line {
