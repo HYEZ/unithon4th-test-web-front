@@ -19,7 +19,7 @@
     .main-search-form {
         width: 90%;
         position: relative;
-        margin-top: 158px;
+        margin-top: 108px;
     }
     .main-search-form-text {
         width: 100%;
@@ -27,19 +27,19 @@
         text-align: left;
         font-size: 25px;
         height: 93px;
-        padding: 0 30px;
+        padding: 0 100px 0 30px;
     }
     .main-search-form-btn {
         position: absolute;
         right: 0;
         height: 93px;
-        width: 125px;
+        width: 90px;
     }
     .intro-text-assistant {
-        font-size: 28px !important;    
+        font-size: 25px !important;    
     }
     .intro-text {
-        padding: 0 80px;
+        padding: 0 5%;
     }
     .intro-text > img {
         width: 100%;
