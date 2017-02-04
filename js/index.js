@@ -5,6 +5,7 @@ function init(){
 function initTrigger(){
     $("body").on("click", ".main-search-form-btn", function(){
 		searchBoxSlide("down");
+        playAudio();
     });
     $("body").on("click", ".search-box-close img", function(){
 		searchBoxSlide("up");
@@ -47,6 +48,10 @@ function addOtherMeans(type){
             $(".search-box-more-head").css("border-radius","20px");
             break;
     }
+}
+
+function playAudio(){
+    $(".audios").trigger('play');
 }
 
 $(function(){
