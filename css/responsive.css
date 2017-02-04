@@ -53,7 +53,7 @@
     /* Search List */
     .search-list-in {
         width: 100%;
-        margin: 90px 0 0 0;
+        margin: 50px 0 0 0;
     }
     .search-item {
         width: 100%;
@@ -66,6 +66,25 @@
     }
     .search-list-assistant {
         font-size: 1.3em;
+    }
+    .search-item-content > div {
+        float: none;
+    }
+    .search-item-lanked {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .search-item-content {
+        left: 0;
+    }
+    .search-item-text {
+        position: absolute;
+        font-size: 0.7em;
+        left: 100px;
+    }
+    .search-item-text {
+        width: 100%;
     }
 }
 
