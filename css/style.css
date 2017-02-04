@@ -66,7 +66,8 @@ header {
     outline: none;
 }
 .main-search-form-btn > img {
-    margin-top: 13px;
+    margin-top: 17px;
+    width: 35px;
 }
 
 /* Shadow line */
@@ -169,7 +170,7 @@ header {
 /* Search Box */
 #search-box {
     background: linear-gradient(to bottom right, #356a84, #30455f);
-    display: none;
+/*    display: none;*/
     padding: 41px 0 250px 0;
 }
 .search-box-line {
@@ -188,6 +189,7 @@ header {
     height: 190px;
     border-radius: 13px;
     background: #ffffff;
+    position: relative;
     margin-bottom: 20px;
 }
 .search-box-text {
@@ -240,11 +242,94 @@ header {
     border-radius: 25px;
     font-size: 2em;
     outline: none;
+    display: none;
 }
-
-
-
-
+.search-box-more-form {
+    width: 782px;
+    height: auto;
+    border-radius: 25px;
+    position: relative;
+    margin: 50px auto 0 auto;
+    z-index: 100;
+    left: 0;
+}
+.search-box-more-form-head {
+    width: 100%;
+    height: 90px;
+    background: url(../img/btn_add.png);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: 100;
+    float: left;
+    line-height: 90px;
+}
+.search-box-more-form-head h3 {
+    font-size: 1em;
+}
+.search-box-more-head {
+    width: 782px;
+    height: 93px;
+    margin: 0 auto 0 auto;
+    background: url(../img/btn_add.png);
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    font-size: 2em;
+    outline: none;
+}
+.search-box-more-input {
+    width: 100%;
+    padding: 50px 100px;
+    background: #fff;
+    text-align: left
+}
+.search-box-more-input input {
+    width: 100%;
+    height: 40px;
+    color: #919191;
+    border: none;
+    outline: none;
+    font-size: 1.6em;
+    border-bottom: 1px solid #898989;
+}
+.search-box-more-input textarea {
+    width: 100%;
+    min-height:150px;
+    resize: none;
+    outline: none;
+    margin-top: 15px;
+    border: 1px solid #898989;
+    border-radius: 10px;
+    padding: 10px;    
+    font-size: 1.4em;
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.search-box-more-input button {
+    background: url(../img/btn_ok.png);
+    width: 100%;
+    border: none;
+    background-size: 100% 100%;
+    height: 70px;
+    border-radius: 15px;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 1.7em;
+    outline: none;
+}
+.search-box-more-foot {
+    width: 100%;
+    height: 80px;
+    background: #e8e8e8;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border:none;
+    outline: none;
+}
+.search-box-more-form-in {
+    display: none;
+}
 
 
 

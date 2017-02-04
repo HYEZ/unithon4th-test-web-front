@@ -177,6 +177,35 @@
     #search-box {
         padding-bottom: 169px;
     }
+    .search-box-more-form {
+        width: 100%;
+    }
+    .search-box-more-head {
+        width: 100%;
+        height: 60px;
+    }
+    .search-box-more-head > img {
+        height: 25px;
+    }
+    .search-box-more-input {
+        padding: 30px 30px;
+    }
+    .search-box-more-input input {
+        font-size: 1.2em;
+    }
+    .search-box-more-input textarea {
+        font-size: 1.1em;
+    }
+    .search-box-more-input button {
+        font-size: 1.3em;
+        height: 50px;
+    }
+    .search-box-more-foot {
+        height: 50px;
+    }
+    .search-box-more-foot img {
+        height: 25px;
+    }
 }
 
 
