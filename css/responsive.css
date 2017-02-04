@@ -90,6 +90,53 @@
     .search-item-text {
         width: 100%;
     }
+    
+    /* Search Box */
+    .search-box-dec-wrap {
+        padding: 0 5%;
+    }
+    .search-box-dec {
+        width: 100%;
+        position: relative;
+        height: 120px;
+       
+    }
+    .search-box-text {
+        width: 100%;
+         padding: 10px 20px;
+    }
+    .search-box-btn {
+        position: absolute;
+        right: 0;
+        width: 100px;
+    }
+    .search-box-more-btn {
+        width: 100%;
+        font-size: 1.4em;
+        height: 60px;
+        margin-top: 40px;
+        border-radius: 20px;
+    }
+    .search-box-text h3 {
+        font-size: 2em;
+    }
+    .search-box-text p {
+        font-size: 1em;
+    }
+    .search-box-btn img {
+        width: 18px;
+        margin: 3px;
+    }
+    .search-box-btn p {
+        font-size: 1em;
+        margin: 0;
+    }
+    .search-box-close img {
+        width: 50px;
+    }
+    #search-box {
+        padding-bottom: 169px;
+    }
 }
 
 
