@@ -152,7 +152,7 @@ header {
 /* Search Box */
 #search-box {
     background: url(../img/bg_result.png);
-/*    display: none;*/
+    display: none;
     padding: 41px 0 250px 0;
 }
 .search-box-close {
