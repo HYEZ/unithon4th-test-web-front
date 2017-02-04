@@ -15,7 +15,10 @@
         padding-bottom: 165px;
     }
     #mainNav {
-        display: none;
+        padding: 0;
+    }
+    .logo > img {
+        width: 50px;
     }
     .main-search-form {
         width: 95%;
