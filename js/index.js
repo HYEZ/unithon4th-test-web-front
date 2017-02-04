@@ -15,9 +15,11 @@ function searchBoxSlide(type){
     switch(type){
         case "up":
             $("#search-box").stop(true,true).slideUp("slow");
+            $(".search-box-line").css("display","none");
             break;
         case "down":
             $("#search-box").stop(true,true).slideDown("slow");
+            $(".search-box-line").css("display","block");
             break;
     }
   

@@ -155,6 +155,9 @@ header {
     display: none;
     padding: 41px 0 250px 0;
 }
+.search-box-line {
+    display: none;
+}
 .search-box-close {
     text-align: center
 }
