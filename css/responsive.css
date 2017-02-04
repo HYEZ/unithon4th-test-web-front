@@ -107,6 +107,7 @@
     }
     .search-item-lanked span {
         font-size: 20px;
+        margin-top: 0;
     }
     .search-item-content {
         left: 0;
