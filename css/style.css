@@ -53,6 +53,7 @@ header {
     border-bottom-right-radius: 14px;
     border: none;
     box-shadow: 0 -2px 6px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+    outline: none;
 }
 .main-search-form-btn > img {
     margin-top: 13px;
