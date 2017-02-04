@@ -36,8 +36,8 @@ header {
     border-bottom-left-radius: 14px;
     border:none;
     text-align: center;
-    box-shadow: 0 -2px 6px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.1);
-    -webkit-box-shadow: 0 -2px 6px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 -2px 6px 0 rgba(0, 0, 0, 0.1), 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 -2px 6px 0 rgba(0, 0, 0, 0.1), 0 5px 20px 0 rgba(0, 0, 0, 0.1);
     -webkit-appearance: none;
     color: #666666;
     outline: none;
@@ -151,7 +151,7 @@ header {
 
 /* Search Box */
 #search-box {
-    background: #356a84;
+    background: linear-gradient(to bottom right, #356a84, #30455f);
     display: none;
     padding: 41px 0 250px 0;
 }
@@ -212,7 +212,7 @@ header {
     width: 782px;
     height: 93px;
     margin: 40px auto 0 auto;
-    background: url(../img/btn_bg.png);
+    background: url(../img/btn_add.png);
     color: #ffffff;
     border: none;
     border-radius: 25px;
