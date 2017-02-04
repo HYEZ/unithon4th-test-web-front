@@ -38,6 +38,7 @@
     .main-search-form-btn > img {
         width: 30px;
         line-height: 70px;
+        margin-top: 14px;
     }
     .intro-text-assistant {
         font-size: 1.5em !important;    
@@ -57,4 +58,24 @@
     .search-item {
         width: 100%;
     }
+    .search-list-head {
+        padding: 0 17%;
+    }
+    .search-list-head img{
+        width: 100%;
+    }
+    .search-list-assistant {
+        font-size: 1.3em;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
