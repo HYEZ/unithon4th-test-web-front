@@ -17,9 +17,6 @@ function searchBoxSlide(type){
             $("#search-box").stop(true,true).slideUp("slow");
             break;
         case "down":
-            if($(".main-search-form-text").val() == null || !$(".main-search-form-text").val()){
-                return false;
-            }
             $("#search-box").stop(true,true).slideDown("slow");
             break;
     }
