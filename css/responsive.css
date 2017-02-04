@@ -10,8 +10,8 @@
     
     /* Header */
     header .container {
-        padding-top: 115px;
-        padding-bottom: 125px;
+        padding-top: 145px;
+        padding-bottom: 155px;
     }
     #mainNav {
         display: none;
@@ -19,7 +19,7 @@
     .main-search-form {
         width: 95%;
         position: relative;
-        margin-top: 78px;
+        margin-top: 88px;
     }
     .main-search-form-text {
         width: 100%;
