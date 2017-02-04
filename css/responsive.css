@@ -17,6 +17,9 @@
     #mainNav {
         padding: 0;
     }
+    .logo {
+        margin-top: 10px;
+    }
     .logo > img {
         width: 50px;
     }
